@@ -1,6 +1,6 @@
 class Post
 
-  self.all = []
+  @@all = []
 
   attr_accessor :author
   attr_accessor :title
