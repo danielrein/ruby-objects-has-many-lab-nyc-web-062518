@@ -7,11 +7,11 @@ class Post
 
   def initialize(title)
     self.title = title
-    self.all << self
+    @@all << self
   end
 
   def self.all
-    self.all
+    @@all
   end
 
   def author_name
